@@ -1,0 +1,10 @@
+22:58:55 **** Incremental Build of configuration Debug for project blinkyled_struct_bitfield ****
+make -j4 all 
+arm-none-eabi-size   blinkyled_struct_bitfield.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	blinkyled_struct_bitfield.elf
+Finished building: default.size.stdout
+ 
+
+22:58:55 Build Finished. 0 errors, 0 warnings. (took 428ms)
+
