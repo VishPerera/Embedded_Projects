@@ -31,12 +31,12 @@ int main(void)
 		pPortB_Out_Reg -> pin_0  = PIN_STATE_HIGH;
 
 		// Add a small software delay. Loop for 300k times
-		for(uint32_t i=0 ; i < DELAY_COUNT ; i++ );
+		for(uint32_t i=0 ; i < 300000 ; i++ );
 
 		// 4. Clear bit 0 to high to turn off PB0 Green LED
 		pPortB_Out_Reg -> pin_0  = PIN_STATE_LOW;
 
-		for(uint32_t i=0 ; i < DELAY_COUNT ; i++ );
+		for(uint32_t i=0 ; i < 300000 ; i++ );
 	}
 
 	for(;;); // Hangs the program

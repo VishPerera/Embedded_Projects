@@ -16,7 +16,6 @@
 #define PIN_MODE_OUTPUT		1
 #define PIN_STATE_HIGH		1
 #define PIN_STATE_LOW		0
-#define DELAY_COUNT			300000UL
 
 /*
  * RCC AHB1 peripheral clock enable register (RCC_AHB1ENR)

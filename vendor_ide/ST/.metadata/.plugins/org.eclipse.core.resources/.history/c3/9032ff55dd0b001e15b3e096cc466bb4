@@ -8,16 +8,6 @@
 
 #include <stdint.h>
 
-#define RCC_AHB1EN_REG 		( (RCC_AHB1EN_R_t*)  0x40023830 )
-#define GPIOx_MODE_REG		( (GPIOx_MODE_R_t*)  0x40020400 )
-#define GPIOx_OD_REG		( (GPIOx_OD_R_t*)    0x40020414 )
-
-#define CLOCK_ENABLE		1
-#define PIN_MODE_OUTPUT		1
-#define PIN_STATE_HIGH		1
-#define PIN_STATE_LOW		0
-#define DELAY_COUNT			300000UL
-
 /*
  * RCC AHB1 peripheral clock enable register (RCC_AHB1ENR)
  */
