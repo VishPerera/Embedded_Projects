@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;010led_toggle_bitfields&apos;" deleteContents="false" description="Delete resource &apos;010led_toggle_bitfields&apos;" element1="/010led_toggle_bitfields" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1686439880936"/>
+</session>

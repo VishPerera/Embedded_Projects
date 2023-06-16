@@ -1,0 +1,15 @@
+/*
+ * Defines the register memory map for peripherals
+ * for ST Nucleo 413ZH dev board
+ */
+
+#ifndef MEMORY_MAPPED_H_
+#define MEMORY_MAPPED_H_
+
+#include <stdint.h>
+
+typedef struct {
+
+}RCC_AHB1ENR_t;
+
+#endif /* MEMORY_MAPPED_H_ */

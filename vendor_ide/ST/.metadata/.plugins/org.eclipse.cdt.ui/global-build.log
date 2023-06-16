@@ -1,0 +1,62 @@
+22:26:39 **** Incremental Build of configuration Debug for project blinkyled_struct_bitfield ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DNUCLEO_F413ZH -DSTM32F413ZHTx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "blinkyled_struct_bitfield.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Embedded Systems\Projects\Embedded_Projects\vendor_ide\ST\blinkyled_struct_bitfield\STM32F413ZHTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinkyled_struct_bitfield.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blinkyled_struct_bitfield.elf
+ 
+arm-none-eabi-size   blinkyled_struct_bitfield.elf 
+arm-none-eabi-objdump -h -S  blinkyled_struct_bitfield.elf  > "blinkyled_struct_bitfield.list"
+arm-none-eabi-objcopy  -O binary  blinkyled_struct_bitfield.elf  "blinkyled_struct_bitfield.bin"
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	blinkyled_struct_bitfield.elf
+Finished building: default.size.stdout
+ 
+Finished building: blinkyled_struct_bitfield.list
+ 
+Finished building: blinkyled_struct_bitfield.bin
+ 
+22:30:26 **** Incremental Build of configuration Debug for project blinkyled_struct_bitfield ****
+make -j4 all 
+arm-none-eabi-size   blinkyled_struct_bitfield.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	blinkyled_struct_bitfield.elf
+Finished building: default.size.stdout
+ 
+22:33:35 **** Incremental Build of configuration Debug for project blinkyled_struct_bitfield ****
+make -j4 all 
+arm-none-eabi-size   blinkyled_struct_bitfield.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	blinkyled_struct_bitfield.elf
+Finished building: default.size.stdout
+ 
+22:49:16 **** Incremental Build of configuration Debug for project blinkyled_struct_bitfield ****
+make -j4 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f413zhtx.d" -MT"Startup/startup_stm32f413zhtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f413zhtx.o" "../Startup/startup_stm32f413zhtx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DNUCLEO_F413ZH -DSTM32F413ZHTx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DNUCLEO_F413ZH -DSTM32F413ZHTx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DNUCLEO_F413ZH -DSTM32F413ZHTx -DSTM32F4 -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "blinkyled_struct_bitfield.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Embedded Systems\Projects\Embedded_Projects\vendor_ide\ST\blinkyled_struct_bitfield\STM32F413ZHTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinkyled_struct_bitfield.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blinkyled_struct_bitfield.elf
+ 
+arm-none-eabi-size   blinkyled_struct_bitfield.elf 
+arm-none-eabi-objdump -h -S  blinkyled_struct_bitfield.elf  > "blinkyled_struct_bitfield.list"
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	blinkyled_struct_bitfield.elf
+Finished building: default.size.stdout
+ 
+Finished building: blinkyled_struct_bitfield.list
+ 
+22:56:00 **** Incremental Build of configuration Debug for project blinkyled_struct_bitfield ****
+make -j4 all 
+arm-none-eabi-size   blinkyled_struct_bitfield.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	blinkyled_struct_bitfield.elf
+Finished building: default.size.stdout
+ 
+22:58:55 **** Incremental Build of configuration Debug for project blinkyled_struct_bitfield ****
+make -j4 all 
+arm-none-eabi-size   blinkyled_struct_bitfield.elf 
+   text	   data	    bss	    dec	    hex	filename
+    836	      8	   1568	   2412	    96c	blinkyled_struct_bitfield.elf
+Finished building: default.size.stdout
+ 
